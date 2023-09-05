@@ -478,7 +478,7 @@ sftp_upload <- function(file,
                         verbose = TRUE,
                         curl_options = list() ) {
 
-    fromfolder <- trim_slashes(fromfolder)
+    # fromfolder <- trim_slashes(fromfolder)
 
     using_wildcard <- FALSE
     if (length(file) == 1) {
